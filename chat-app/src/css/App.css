@@ -1,0 +1,131 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#home {
+  text-align: center;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #404040;
+  overflow: hidden;
+}
+
+.nav li {
+  float: right;
+  padding: 15px;
+}
+
+.nav a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav li:hover {
+  background-color: #333333;
+}
+
+.profile-content {
+  right: 0;
+  z-index: 1;
+  position: absolute;
+  background-color: #404040;
+  margin-top: 15px;
+  display: none;
+}
+
+.profile-content a {
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  color: white;
+}
+
+.profile-content a:hover {
+  background-color: #333333;
+}
+
+.dropdown:hover .profile-content{
+  display: block;
+}
+
+
+.login-form {
+  text-align: center;
+}
+
+.form-input {
+  text-align: left;
+}
+
+
+
+.conversation-header {
+  height: 25%;
+}
+
+.texts-container {
+  width: 100%;
+  overflow-y: scroll;
+  position: fixed;
+  bottom: 5%;
+  max-height: 70%;
+}
+
+.text-sent {
+  background-color: darkcyan;
+  display: block;
+  float: right;
+  clear: both;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  border: 2px solid blue;
+  border-radius: 2px;
+}
+
+.text-received {
+  background-color: limegreen;
+  display: block;
+  float: left;
+  clear: both;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+}
+
+#bottomoftexts {
+  width: 100%;
+  height: 10px;
+  position: fixed;
+  display: block;
+  margin-bottom: 5%;
+}
+
+
+.sendtext {
+  width: 100%;
+  height: 5%;
+  position: fixed;
+  bottom: 0;
+  display: table;
+  overflow: hidden;
+  padding: 0px 0px 3px 0px
+}
+
+#sendtext-content {
+  display: table-cell;
+  float: left;
+  width: 94%;
+  height: 100%;
+}
+
+#sendtext-button {
+  display: table-cell;
+  float: right;
+  width: 5%;
+  height: 100%;
+}
+

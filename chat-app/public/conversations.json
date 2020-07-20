@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Jim Halpert",
+        "texts": [
+            {
+                "sender": 0,
+                "content": "Hey!"
+            },
+            {
+                "sender": 1,
+                "content": "Hi Jim!"
+            },
+            {
+                "sender": 1,
+                "content": "Break room in 5?"
+            },
+            {
+                "sender": 1,
+                "content": "Ok"
+            }
+        ]
+    },
+    {
+        "name": "Dwight Shrute",
+        "texts": [
+            {
+                "sender": 1,
+                "content": "Hey Dwight, what was that Russian website?"
+            },
+            {
+                "sender": 0,
+                "content": "Identity theft is not a joke"
+            },
+            {
+                "sender": 1,
+                "content": "Ok sry"
+            }
+        ]
+    }
+]
